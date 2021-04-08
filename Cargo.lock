@@ -1470,7 +1470,7 @@ dependencies = [
 
 [[package]]
 name = "shadowsocks"
-version = "1.10.2"
+version = "1.11.0"
 dependencies = [
  "arc-swap 1.2.0",
  "async-trait",
@@ -1514,7 +1514,7 @@ dependencies = [
 
 [[package]]
 name = "shadowsocks-rust"
-version = "1.10.5"
+version = "1.11.0"
 dependencies = [
  "byte_string",
  "byteorder",
@@ -1535,7 +1535,7 @@ dependencies = [
 
 [[package]]
 name = "shadowsocks-service"
-version = "1.10.4"
+version = "1.11.0"
 dependencies = [
  "async-trait",
  "byte_string",
@@ -1792,8 +1792,7 @@ checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
 [[package]]
 name = "tokio"
 version = "1.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "134af885d758d645f0f0505c9a8b3f9bf8a348fd822e112ab5248138348f1722"
+source = "git+https://github.com/tokio-rs/tokio.git#5513b6b825c12aeb75d74f0d90255534846ecb53"
 dependencies = [
  "autocfg",
  "bytes",
@@ -1812,8 +1811,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "1.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "caf7b11a536f46a809a8a9f0bb4237020f70ecbf115b842360afb127ea2fda57"
+source = "git+https://github.com/tokio-rs/tokio.git#5513b6b825c12aeb75d74f0d90255534846ecb53"
 dependencies = [
  "proc-macro2",
  "quote",
